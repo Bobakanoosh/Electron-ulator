@@ -1,0 +1,94 @@
+* {
+  cursor: default;
+}
+body {
+  -webkit-user-select: none;
+  font: caption;
+  background-color: #1d1626;
+  font-size: 18px;
+}
+.container {
+    height: 100%;
+    margin: auto;
+    padding: 5px;
+}
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+}
+
+*:focus {
+  outline: none;
+}
+
+.child:hover {
+  background-color: #312641;
+}
+
+.child {
+  display: flex;
+  flex: 1 0 21%; /* 17% is good spot for 5 rows on expand*/
+  margin: 5px;
+  height: 75px;
+  background-color: #241c30;
+  justify-content: center;
+  align-items: center;
+  border-color: transparent;
+  color: white;
+  font-size: 24px;
+}
+
+#customtitle {
+  -webkit-app-region: drag;
+}
+
+hr { 
+  border-color: #2a2433;
+  border-style: solid;
+}
+
+.inputfield {
+  background-color: #20182b;
+  border-color: #2b213a;
+  border-style: solid;
+  border-width: 1px;
+  margin: 5px;
+  color: white;
+  height: 50px;
+  width: 89%;
+  margin-right: auto;
+  margin-left: 15px;
+  font-size: 48px;
+  text-align: right;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 94% 1% 100px;
+  grid-gap: 10px;
+  width: 100%;
+}
+
+.box {
+  padding-left: 10px;
+  font-size: 150%;
+}
+
+#expand-calc:hover {
+  background-color: #2c223a;
+}
+
+#expand-calc {
+  height: 99%;
+  background-color: #241c30;
+  border-color: transparent;
+  color: rgb(226, 226, 226);
+  width: 10px;
+  text-align: left;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0px;
+  font-size: 10px;
+}

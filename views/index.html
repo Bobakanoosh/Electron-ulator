@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/titlebar.css">
+    <title>Calculator</title>
+  </head>
+  <body>
+      <div class="title-bar">
+          <!-- <div class="menu-button-container">
+            <button id="menu-button" class="menu-button">_</button>
+          </div> -->
+          <div class="app-name-container">
+            <p>Calculator</p>
+          </div>
+          <div class="window-controls-container">
+            <button id="minimize-button" class="title-bar-button">_</button>
+            <button id="close-button"class="title-bar-button">X</button>
+          </div>
+      </div>
+      <hr class="divider">
+      <input type="text" class="inputfield" id="inputfield">
+      <!-- 2x1 Grid for calculator buttons + expand button-->
+      <div class="wrapper">
+        <div class="box a">
+            <div class="parent" id="parent">
+              <!-- Buttons go here -->
+            </div>
+        </div>
+        <div>
+          <button class="box" id="expand-calc">
+            <p id="expand-indicator" style="transform: rotate(90deg);">^&nbsp;^</p>
+          </button>
+        </div>
+      </div>
+    <script>require('../js/renderer.js')</script>
+    <script src="../js/math.min.js"></script>
+    <script src="../js/index.js"></script>
+  </body>
+</html>
