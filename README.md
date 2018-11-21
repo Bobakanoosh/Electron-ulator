@@ -1,6 +1,8 @@
 # Electron-ulator
 A basic electron-calculator, for all platforms, that I created as my first electron-app. I've always tried to make a GUI calculator when I started out programming, but found that C# and Java made it too hard to format things & look good.
 
+![Preview picture](https://i.imgur.com/g7oH3bx.png)
+
 ## Functions
 It has all basic arithmetic, including exponents, squareroots.
 Tracks input to allow the user to type values as input.
