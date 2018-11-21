@@ -12,7 +12,9 @@ Check out the releases page and download the executable based on your platform!
 
 ## Built with
 [Electron](https://electronjs.org/) - Core of the desktop application
+
 [MathJS](http://mathjs.org/http://mathjs.org/) - Evaluating calculations
+
 [Mousetrap](https://craig.is/killing/mice) - Tracking user input
 
 ## Authors
