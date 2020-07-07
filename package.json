@@ -19,7 +19,7 @@
   "devDependencies": {
     "devtron": "^1.4.0",
     "electron-packager": "^12.2.0",
-	"electron": "^3.0.10"
+	"electron": "^7.2.4"
   },
   "dependencies": {
     "electron-window-state": "^5.0.2",
